@@ -1,0 +1,21 @@
+$header-height: 40px;
+$logo-size: 30px;
+
+.header-main {
+  width: 100%;
+  display: flex;
+  background-color: #777;
+  height: $header-height;
+}
+
+.logo { // temp
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: ($header-height - $logo-size) / 2;
+  margin-left: ($header-height - $logo-size) / 2;
+  width: $logo-size;
+  height: $logo-size;
+  border-radius: 50%;
+  background-color: lightgreen;
+}
