@@ -5,8 +5,9 @@ function HeaderMain() {
     return (
         <div className="header-main">
             <div className="logo">
-                L
+                N
             </div>
+            <div className="header-heading">Всі новини України</div>
         </div>
     );
 }

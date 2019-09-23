@@ -1,11 +1,14 @@
-$header-height: 40px;
-$logo-size: 30px;
+@import '../../assets/scss/variables';
 
 .header-main {
+  top:0;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  background-color: rgba(15,15,15,0.3);
   width: 100%;
   display: flex;
-  background-color: #777;
   height: $header-height;
+  z-index: 9999;
 }
 
 .logo { // temp
@@ -17,5 +20,13 @@ $logo-size: 30px;
   width: $logo-size;
   height: $logo-size;
   border-radius: 50%;
-  background-color: lightgreen;
+  background-color: #fff;
+}
+
+.header-heading {
+  margin: auto;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Yeseva One', cursive;
 }
